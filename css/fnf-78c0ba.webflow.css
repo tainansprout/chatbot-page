@@ -39,6 +39,9 @@
 
 .logo {
   object-fit: cover;
+  background-image: url('../images/Navbar-Brand-logo.png');
+  background-position: 0 0;
+  background-size: 141px;
   justify-content: center;
   align-items: center;
   width: 141px;
@@ -1151,7 +1154,7 @@
 .hero_desktop {
   background-color: #e1cea1;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 100%;
@@ -1238,13 +1241,15 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  max-width: 426px;
+  max-width: 45%;
   text-decoration: none;
   display: flex;
 }
 
 .b-logo-10-2 {
   object-fit: cover;
+  width: 500px;
+  height: 330px;
 }
 
 .frame-49 {
@@ -2666,6 +2671,10 @@
 
   .icon {
     background-color: #e1cea1;
+  }
+
+  .b-logo-10-3 {
+    width: 285px;
   }
 
   .column {
