@@ -39,9 +39,9 @@
 
 .logo {
   object-fit: cover;
-  background-image: url('../images/Navbar-Brand-logo.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0 0;
-  background-size: 141px;
+  background-size: auto;
   justify-content: center;
   align-items: center;
   width: 141px;
