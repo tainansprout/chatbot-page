@@ -260,7 +260,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 1045px;
+  height: auto;
   padding: 64px 24px;
   text-decoration: none;
   display: flex;
@@ -943,6 +943,7 @@
   align-items: flex-start;
   width: 100%;
   max-width: 100%;
+  height: auto;
   padding: 41px 76px;
   text-decoration: none;
   display: flex;
@@ -951,7 +952,7 @@
 .comment_01 {
   grid-column-gap: 20px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   text-decoration: none;
   display: flex;
@@ -966,7 +967,7 @@
   align-items: center;
   width: 100%;
   max-width: 304px;
-  height: 408px;
+  height: auto;
   padding: 40px 16px 20px;
   text-decoration: none;
   display: flex;
@@ -1117,8 +1118,8 @@
 
 .description-2 {
   color: #3e3e3e;
-  text-align: center;
-  width: 71%;
+  text-align: left;
+  width: 80%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -1158,7 +1159,7 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  height: 668px;
+  height: auto;
   padding: 20px 56px;
   text-decoration: none;
   display: flex;
@@ -1184,7 +1185,7 @@
 }
 
 .descrip-3 {
-  grid-row-gap: 40px;
+  grid-row-gap: 10px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -1216,6 +1217,7 @@
 
 .button-5 {
   grid-column-gap: 8px;
+  color: #fff;
   background-color: #00252c;
   flex: 0 auto;
   justify-content: center;
@@ -2196,7 +2198,9 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  height: 663px;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
   text-decoration: none;
   display: flex;
 }
@@ -2208,6 +2212,7 @@
   align-items: center;
   width: 100%;
   max-width: 996px;
+  height: auto;
   text-decoration: none;
   display: flex;
 }
@@ -2218,8 +2223,8 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  max-width: 440px;
-  height: 124px;
+  max-width: 100%;
+  height: auto;
   text-decoration: none;
   display: flex;
 }
@@ -2248,10 +2253,12 @@
 }
 
 .frame-87 {
-  grid-column-gap: 120px;
+  grid-column-gap: 60px;
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+  height: auto;
+  max-height: none;
   text-decoration: none;
   display: flex;
 }
@@ -2259,10 +2266,14 @@
 .frame-88 {
   grid-row-gap: 35px;
   flex-direction: column;
+  flex: 0 auto;
+  order: 0;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
   display: flex;
 }
@@ -2294,6 +2305,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 80%;
   text-decoration: none;
   display: flex;
 }
@@ -2311,6 +2323,7 @@
 
 .description-19 {
   color: #e1cea1;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
@@ -2321,6 +2334,7 @@
 
 .description-20 {
   color: #e1cea1;
+  width: auto;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -2394,11 +2408,15 @@
 
 .frame-94 {
   grid-row-gap: 35px;
+  object-fit: fill;
   flex-direction: column;
+  order: 0;
   justify-content: flex-start;
+  align-self: auto;
   align-items: flex-start;
   width: 100%;
   max-width: 380px;
+  height: auto;
   text-decoration: none;
   display: flex;
 }
@@ -2426,6 +2444,14 @@
   background-color: #e1cea1;
   padding: 10px;
   font-size: 36px;
+}
+
+.bold-text {
+  -webkit-text-stroke-color: white;
+}
+
+.bold-text-2 {
+  width: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -2625,7 +2651,7 @@
 
   .qrcode-1 {
     height: auto;
-    display: none;
+    display: block;
   }
 
   .hero-stack-2 {
@@ -2646,6 +2672,8 @@
 
   .frame-48 {
     flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .vectors-wrapper-13, .vectors-wrapper-14 {
@@ -2705,7 +2733,7 @@
 
   .description-18 {
     color: #00252c;
-    text-align: left;
+    text-align: center;
     background-color: #e1cea1;
     justify-content: center;
     align-items: center;
@@ -2719,6 +2747,7 @@
   }
 
   .heading {
+    text-align: center;
     background-color: #e1cea1;
     padding-left: 10px;
     padding-right: 10px;
